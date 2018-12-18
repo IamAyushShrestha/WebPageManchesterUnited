@@ -1,0 +1,97 @@
+@charset "utf-8";
+.container{
+	width: 900px;
+	margin: auto;
+	background-color: rgba(34,31,31,0.60);	
+	      }
+
+main {
+	margin: 10px;
+	color: #FFD700;
+	font-style: italic;
+	font-weight: bold;
+}
+body {
+	 font-family: "Courier New", monospace; 
+		width: 900px;
+	margin: auto;
+	background-color: #F5F0F0;
+	
+}
+nav {
+	text-align: center;
+}
+
+				
+.my_nav {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	color: #DF3C3E;
+}
+
+.my_nav li {
+	float: left;
+
+	
+}
+
+.my_nav a:link, .menu a:visited {
+	display: block;
+	width: 167px;
+	font-weight: bold;
+	color: #F3181B;
+	background-color: #0B0B0B;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	}
+a:visited {
+	color: #FFFFFF;
+}
+	
+
+.my_nav a:hover, .menu a:active {
+	background-color: #1120BC;
+	font-style: italic;
+} 
+
+footer{
+	text-align: center;
+	font-size:12px;
+	
+}
+
+
+h1 {
+	color: #F5F2F2;
+}
+h2{
+	color: rgba(0,0,0,1.00)
+}
+.fancy {
+	color: #7237DB;
+	font-style: italic;
+	font-weight: bold;
+}
+.code {
+	opacity: 1;
+}
+
+.image {
+	display: block;
+	width: 100px;
+	height: 100px;
+	text-indent: -99999px;
+}
+.image:hover {
+	background-position: 0 0;
+}
+
+
+
+
+
+@media screen{
+}
